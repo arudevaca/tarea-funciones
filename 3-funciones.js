@@ -61,10 +61,10 @@ esMayorDeEdad(17);
 
 // 3. Function Expression
 // 3.1 Crea una **function expression** que multiplique dos números y asígnala a la variable `multiplicarDOS`.
-    const multiplicarDos = function(){
+    const multiplicarDOS = function(){
         console.log(2 * 5);
     }
-    multiplicarDos();
+    multiplicarDOS();
 
     // 3.2 Escribe una **function expression** llamada `saludar` que acepte un parámetro `nombre` y devuelva "Hola, [nombre]".
     const saludar = function(nombre){
@@ -139,9 +139,9 @@ function potencia(base, exponente) {
 }
 console.log(potencia(2,3));
 
-/*
+
 // Exportar las funciones para que puedan ser probadas
-module.export = {
+module.exports = {
     despedir,
     multiplicarPorDos,
     esMayorDeEdad,
@@ -161,4 +161,3 @@ module.export = {
     saludarFlecha,
     multiplicarFlecha,
 };
-*/
